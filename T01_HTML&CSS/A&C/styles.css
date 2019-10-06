@@ -1,0 +1,38 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #40514E;
+  background-color: #d6e6f2;
+}
+h1{
+  margin: 30px auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 69px;
+}
+table{
+  padding: 2%;
+}
+th, td {
+  border: 1px dotted red;
+}
+ul{
+  list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+}
+p{
+  font-size: 20px;
+  line-height: 2;
+
+}
+.top {
+  color: #66BFBF;
+  margin:0;
+  text-align: center;
+
+}
+.bottom{
+  background-color: #b9d7ea;
+  padding: 2%;
+}
+.link{
+  text-decoration: none;
+  font-weight: bold;
+}
