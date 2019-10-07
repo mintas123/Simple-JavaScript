@@ -1,0 +1,22 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #40514E;
+  background-color: #d6e6f2;
+}
+h1{
+  margin: 30px auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 69px;
+}
+p{
+  font-family:'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+.required {
+  color: red;
+}
+.bottom{
+  font-size: 0.5em;
+  font-style: italic;
+  font-weight: bold;
+}

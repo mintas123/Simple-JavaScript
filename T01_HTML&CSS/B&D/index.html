@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Task B&D</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>Very important form:</h1>
+
+  <form>
+    <!-- whole label in red looks bad (more accurately worse) -->
+    <label for="login">Login:<span class="required">*</span></label> <br>
+    <input type="text" name="login" id="login"><br>
+    <label for="password">Password:<span class="required">*</span></label> <br>
+    <input type="password" name="password" id="password"><br>
+    <input type="checkbox" name="checkbox"> Sell your soul to the Devil himself <br>
+    <p>Best "b" word:</p>
+    <input type="radio" name="bears" value="">Bears<br>
+    <input type="radio" name="beets" value="">Beets<br>
+    <input type="radio" name="Battlestar Galactica" value="">Battlestar Galactica <br>
+    <p>Subject:</p>
+    <select>
+      <option value="MAD">MAD</option>
+      <option value="SAD">SAD</option>
+      <option value="RIP">RIP</option>
+      <option value="HBO">HBO</option>
+    </select> <br>
+    <p>Why would you want to join our gang? Explain yourself.<span class="required">*</span></p>
+    <textarea rows="10" cols="80" placeholder="Write your application here.">
+</textarea> <br>
+    <input type="submit" value="apply">
+    <input type="reset" value="reset">
+  </form>
+
+  <div class="bottom">
+    <p>Fields with <span class="required">*</span> are mandatory.</p>
+  </div>
+
+</body>
+
+</html>
