@@ -1,0 +1,16 @@
+p{
+  width: 47%;
+}
+img{
+  width: 10%;
+  height: auto;
+}
+.left-float {
+  float: left;
+}
+.right-float {
+  float: right;
+}
+.right-float-clear {
+  float: right;
+}

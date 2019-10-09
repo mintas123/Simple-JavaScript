@@ -1,0 +1,38 @@
+
+body {
+  background-color: #e3fdfd;
+  margin-left: 2%;
+  font-family: 'Lato', sans-serif;
+  color: #40514E;
+}
+article {
+  margin: 10%;
+  padding: 2%;
+  background-color: #cbf1f5;
+  border: 1px solid #71c9ce;
+  border-radius: 30px;
+
+}
+.header-body{
+  font-size: 2.5em;
+  text-decoration: underline;
+  margin-left:  5%;
+  padding-bottom: 2%;
+
+}
+.header-main {
+  font-size: 5em;
+  text-align: center;
+  padding: 5%;
+  border: 1px solid #40514E;
+  border-radius: 20px;
+}
+.link{
+  color: pink;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 3% 0 3%;
+}
+.link:hover {
+	color:red;
+}
