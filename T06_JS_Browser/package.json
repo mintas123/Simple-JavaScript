@@ -1,0 +1,11 @@
+{
+  "name": "t06_js_browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "6a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakub Mróz",
+  "license": "ISC"
+}
