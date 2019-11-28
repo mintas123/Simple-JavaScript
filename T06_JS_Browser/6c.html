@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>Form validation</title>
+</head>
+
+<body>
+  <div class="container mt-3 pt-3">
+    <h2>Very important form:</h2>
+  </div>
+
+  <div class="container">
+
+    <form class="needs-validation" novalidate>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom01">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            First name required
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom02">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Last name required.
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="username">Username (prefix with @)</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="username" placeholder="@Username" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username starting with @ sign and with 8+ characters.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-5 mb-3">
+          <label for="pass1">Password</label>
+          <input type="password" class="form-control" id="pass1" placeholder="Password" required>
+          <div class="invalid-feedback">
+            Password not meeting requirements (try harder)
+          </div>
+        </div>
+        <div class="col-md-5 mb-3">
+          <label for="pass2">Confirm Password</label>
+          <input type="password" class="form-control" id="pass2" placeholder="Password" required>
+          <div class="invalid-feedback">
+            Passwords should match.
+          </div>
+        </div>
+        <div class="col-md-2 mb-3">
+          <label for="number">2+5=</label>
+          <input type="number" class="form-control" id="number" placeholder="Think..." required>
+          <div class="invalid-feedback">
+            Are you actually serious.
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Donate to us your kidney
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+
+  </div>
+</body>
+<script src="6c.js"></script>
+
+</html>
