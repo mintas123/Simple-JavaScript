@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <title>Table</title>
+</head>
+
+<body>
+  <div class="container mt-3 pt-3">
+    <h2>Very important form:</h2>
+  </div>
+
+  <div class="container">
+
+    <form class="needs-validation" onsubmit="return addToTable()" novalidate>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="first">First name</label>
+          <input type="text" class="form-control" id="first" placeholder="First name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            First name required
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="last">Last name</label>
+          <input type="text" class="form-control" id="last" placeholder="Last name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Last name required.
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="username">Username (prefix with @)</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="username" placeholder="@Username" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username starting with @ sign and with 8+ characters.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-5 mb-3">
+          <label for="pass1">Password</label>
+          <input type="password" class="form-control" id="pass1" placeholder="Password" required>
+          <div class="invalid-feedback">
+            Password not meeting requirements (try harder)
+          </div>
+        </div>
+        <div class="col-md-5 mb-3">
+          <label for="pass2">Confirm Password</label>
+          <input type="password" class="form-control" id="pass2" placeholder="Password" required>
+          <div class="invalid-feedback">
+            Passwords should match.
+          </div>
+        </div>
+        <div class="col-md-2 mb-3">
+          <label for="number">2+5=</label>
+          <input type="number" class="form-control" id="number" placeholder="Think..." required>
+          <div class="invalid-feedback">
+            Are you actually serious.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+  </div>
+
+<div class="container mt-5">
+  <h3>Legit and safe way of storing sensitive data:</h3>
+</div>
+  <div class="container mt-3">
+    <table class="table table-striped" id="list">
+      <thead>
+        <tr>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Username</th>
+          <th scope="col">Password</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jakub</td>
+          <td>Mróz</td>
+          <td>@s16604_pjatk</td>
+          <td><a href="https://www.tiny.cc/I_D4re_Y0u">oU%TcRi%QHIg4x</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</body>
+<script src="6c.js"></script>
+<script src="6d.js"></script>
+
+</html>
