@@ -1,0 +1,11 @@
+{
+  "name": "t07_node",
+  "version": "1.0.0",
+  "description": "TIN07 by s16604 @PJATK",
+  "main": "7a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakub Mróz",
+  "license": "ISC"
+}
