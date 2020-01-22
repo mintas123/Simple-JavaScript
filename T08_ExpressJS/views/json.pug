@@ -1,0 +1,7 @@
+head
+    title= 'JSON message'
+body
+    -const someData= JSON.parse(body);
+    p= 'From: ' + someData.user
+    p= 'To:' + someData.to
+    p= 'Message: ' + someData.msg

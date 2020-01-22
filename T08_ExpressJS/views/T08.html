@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>Form</title>
+</head>
+
+<body>
+  <div class="container mt-3 pt-3">
+    <h2>Very important form:</h2>
+  </div>
+
+  <div class="container">
+
+    <form class="needs-validation" novalidate method="POST" action="/formdata">
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="fname">First name</label>
+          <input type="text" class="form-control" name="fname" placeholder="First name" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="lname">Last name</label>
+          <input type="text" class="form-control" name="lname" placeholder="Last name" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="username">Username (prefix with @)</label>
+          <div class="input-group">
+            <input type="text" class="form-control" name="username" placeholder="@Username" aria-describedby="inputGroupPrepend" required>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+
+  </div>
+</body>
+
+</html>
