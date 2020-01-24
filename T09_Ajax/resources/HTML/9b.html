@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+  <script src="JS/9b.js"></script>
+  <meta charset="UTF-8">
+  <title>AJAX version</title>
+</head>
+
+<body>
+
+  <div class="container mt-3 pt-3">
+    <h2>More advanced calculator:</h2>
+  </div>
+
+  <div class="container">
+    <form>
+      <div class="form-row">
+
+        <input id="num1" name="num1" type="number" required placeholder=" a number">
+        <select class="selectpicker p-2" id="sign" name="sign" required>
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <input id="num2" name="num2" type="number" required placeholder=" a number">
+        <input id="calcBtn" type="submit" class="btn btn-primary">
+      </div>
+    </form>
+    <p>Output: <a id="output"></a></p>
+  </div>
+</body>
+
+</html>
